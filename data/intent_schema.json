@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "CheckDemandIntent"
+    },
+    {
+      "intent": "CheckPriceIntent"
+    },
+    {
+      "intent": "CheckSummationIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+ }

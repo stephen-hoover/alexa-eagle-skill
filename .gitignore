@@ -1,0 +1,10 @@
+# Exclude requirements installed in this directory.
+# See https://github.com/stephen-hoover/Eagle-Http-API
+eagle_http
+requests*
+
+config.py
+*.pyc
+*.zip
+*~
+.idea

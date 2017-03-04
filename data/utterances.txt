@@ -1,0 +1,32 @@
+CheckDemandIntent energy usage
+CheckDemandIntent about usage
+CheckDemandIntent usage
+CheckDemandIntent check usage
+CheckDemandIntent check energy usage
+CheckDemandIntent my energy usage
+CheckDemandIntent our energy usage
+CheckDemandIntent your energy usage
+CheckDemandIntent our power consumption
+CheckDemandIntent my power consumption
+CheckDemandIntent your power consumption
+CheckDemandIntent our power usage
+CheckDemandIntent my power usage
+CheckDemandIntent your power usage
+CheckDemandIntent our current power use
+CheckDemandIntent my current power use
+CheckDemandIntent you current power use
+CheckDemandIntent our current power usage
+CheckDemandIntent my current power usage
+CheckDemandIntent your current power usage
+
+CheckPriceIntent the current price of electricity
+CheckPriceIntent the current price of energy
+CheckPriceIntent the current price of power
+CheckPriceIntent the current price
+
+CheckSummationIntent how much you've used today
+CheckSummationIntent how much I've used today
+CheckSummationIntent how much we've used today
+CheckSummationIntent how much power you've used today
+CheckSummationIntent how much power I've used today
+CheckSummationIntent how much power we've used today
