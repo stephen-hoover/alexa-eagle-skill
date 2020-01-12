@@ -1,6 +1,7 @@
-from __future__ import print_function, division
 import logging
 import sys
+
+from requests import ReadTimeout
 
 import config
 import handle
@@ -32,8 +33,12 @@ def lambda_handler(event, context):
             # I don't think there's any other kinds of requests.
             return reply.build("",  # TODO: Write this
                                is_end=False)
+    except ReadTimeout:
+        log.exception('Timeout accessing Rainforest cloud.')
+        return reply.build("I couldn't access the Rainforest Cloud.",
+                           is_end=True)
     except Exception as err:  # NOQA
         log.exception('Unhandled exception for event\n%s\n' % str(event))
-        return reply.build("Sorry, something went wrong. Please try again.",
+        return reply.build("Sorry, something went wrong.",
                            persist=event['session'].get('attributes', {}),
-                           is_end=False)
+                           is_end=True)

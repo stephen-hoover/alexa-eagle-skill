@@ -39,7 +39,6 @@ IntentRequest:
   }
 }
 """
-from __future__ import print_function, division
 import logging
 import os
 import reply
